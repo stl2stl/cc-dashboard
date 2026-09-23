@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>dbs-bill-bot｜信用卡帳單分析工具</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="_style.css">
+</head>
+<body>
+<main>
+<h1>dbs-bill-bot</h1>
+<p class="lead">一個自用的信用卡帳單整理工具，把每月的電子帳單自動整理成分類報表。</p>
+
+<div class="card">
+<h2>這個工具做什麼</h2>
+<p>使用者的銀行會每月寄出信用卡電子帳單。這個工具會在使用者授權後，從他自己的 Gmail 找出這些帳單信，讀取附件中的 PDF，把每一筆消費依類別整理，產生 Excel 報表與互動式圖表，再寄回使用者本人的信箱。</p>
+</div>
+
+<h2>需要哪些權限</h2>
+<ul>
+<li><strong>讀取、撰寫及傳送郵件</strong>：搜尋銀行寄來的帳單信、下載 PDF 附件，並在處理完後替該封信加上標籤。</li>
+<li><strong>以使用者名義傳送郵件</strong>：把整理好的報表寄給使用者自己。</li>
+</ul>
+<p>工具只會處理寄件者為銀行帳單系統的郵件，不會讀取、修改或刪除其他郵件。</p>
+
+<h2>資料存放在哪裡</h2>
+<p>所有資料都留在使用者自己的環境：帳單內容在使用者的電腦與其個人的自動化流程中處理，產生的報表只寄給使用者本人。開發者不會取得、不會儲存、也無法看到任何使用者資料。</p>
+
+<h2>誰在使用</h2>
+<p>這是開發者本人使用的個人專案，並未對外提供服務。</p>
+
+<h2>如何撤銷授權</h2>
+<p>使用者可以隨時到 <a href="https://myaccount.google.com/permissions">Google 帳戶的第三方應用程式頁面</a> 移除本應用程式的存取權。</p>
+<footer>
+<a href="app.html">首頁</a><a href="privacy.html">隱私權政策</a><a href="terms.html">服務條款</a>
+<p>聯絡方式：shaunttt2@gmail.com</p>
+</footer>
+</main>
+</body>
+</html>
